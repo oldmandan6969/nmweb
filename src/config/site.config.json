@@ -627,7 +627,7 @@
   "api": {
     "serverCode": "yzkmdy",
     "cfxApiUrl": "https://servers-frontend.fivem.net/api/servers/single/",
-    "refreshInterval": 30000
+    "refreshInterval": 20000
   },
   "social": {
     "discord": "https://discord.gg/fourtwenty",
