@@ -588,7 +588,7 @@
       "name": "Git 'Dev' Gaming",
       "role": "Main Developer",
       "avatar": "https://r2.fivemanage.com/jEz23icwKzxF4927IBvLY/image_2026-02-28_154254293.png",
-      "discord": "bigboss",
+      "discord": "Git-gaming",
       "description": "Running this operation since day one",
       "badge": "OG",
       "status": "loa"
@@ -625,7 +625,7 @@
     }
   ],
   "api": {
-    "serverCode": "ymkax5",
+    "serverCode": "yzkmdy",
     "cfxApiUrl": "https://servers-frontend.fivem.net/api/servers/single/",
     "refreshInterval": 30000
   },
