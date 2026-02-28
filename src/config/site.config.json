@@ -640,7 +640,6 @@
     "forum": null
   },
   "whitelist": {
-    "enabled": true,
     "applicationUrl": "https://apply.nightcity-rp.com",
     "requirements": [
       "Minimum age of 18 years",
@@ -656,7 +655,6 @@
     ]
   },
   "donations": {
-    "enabled": true,
     "currency": "USD",
     "paypalUrl": "https://paypal.me/nightcityrp",
     "packages": [
