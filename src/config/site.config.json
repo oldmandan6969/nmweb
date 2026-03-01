@@ -353,14 +353,14 @@
         "name": "Paramedic",
         "category": "medical",
         "description": "Save lives and provide medical care in the streets",
-        "requirements": ["16+ years old", "Medical training", "Active player"],
+        "requirements": ["18+ years old", "Medical training", "Active player"],
         "salary": 250,
         "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop"
       },
       {
         "id": "lawyer",
         "name": "Lawyer",
-        "category": "business",
+        "category": "government",
         "description": "Keep criminals out of jail and make bank",
         "requirements": ["Bar exam", "Good standing"],
         "salary": 350,
