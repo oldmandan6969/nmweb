@@ -239,7 +239,7 @@
     "images": [
       { 
         "id": 1, 
-        "src": "https://images.unsplash.com/photo-1486428128344-5413e434ad35?w=800&h=600&fit=crop", 
+        "src": "https://r2.fivemanage.com/jEz23icwKzxF4927IBvLY/image_2026-03-01_165238862.png", 
         "alt": "City skyline at night", 
         "title": "Downtown Los Santos",
         "category": "locations",
@@ -326,18 +326,6 @@
         "legal": true
       },
       {
-        "id": "criminal",
-        "name": "Criminal",
-        "color": "red",
-        "legal": false
-      },
-      {
-        "id": "business",
-        "name": "Business",
-        "color": "gold",
-        "legal": true
-      },
-      {
         "id": "government",
         "name": "Government",
         "color": "blue",
@@ -347,12 +335,6 @@
         "id": "medical",
         "name": "Medical",
         "color": "green",
-        "legal": true
-      },
-      {
-        "id": "mechanic",
-        "name": "Mechanic",
-        "color": "orange",
         "legal": true
       }
     ],
@@ -369,29 +351,11 @@
       {
         "id": "ems",
         "name": "Paramedic",
-        "category": "emergency",
+        "category": "medical",
         "description": "Save lives and provide medical care in the streets",
         "requirements": ["16+ years old", "Medical training", "Active player"],
         "salary": 250,
         "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "mechanic",
-        "name": "Mechanic",
-        "category": "mechanic",
-        "description": "Fix rides and customize whips for the streets",
-        "requirements": ["No requirements", "Training provided"],
-        "salary": 150,
-        "image": "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "taxi",
-        "name": "Taxi Driver",
-        "category": "civilian",
-        "description": "Transport citizens around the city",
-        "requirements": ["Valid license", "Clean driving record"],
-        "salary": 100,
-        "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&h=400&fit=crop"
       },
       {
         "id": "lawyer",
@@ -428,15 +392,6 @@
         "requirements": ["16+ years old", "Training provided"],
         "salary": 200,
         "image": "https://images.unsplash.com/photo-1621604603003-c324e1fb667d?w=600&h=400&fit=crop"
-      },
-      {
-        "id": "mechanic",
-        "name": "Mechanic",
-        "category": "mechanic",
-        "description": "Repair and upgrade vehicles for the community",
-        "requirements": ["Basic knowledge", "Tools provided"],
-        "salary": 180,
-        "image": "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&h=400&fit=crop"
       }
     ]
   },
@@ -682,7 +637,7 @@
     ]
   },
   "footer": {
-    "showNewsletter": false,
+    "showNewsletter": true,
     "showSocialLinks": true,
     "showLegalLinks": true,
     "showServerStats": true,
