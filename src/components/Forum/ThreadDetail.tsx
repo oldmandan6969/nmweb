@@ -12,7 +12,7 @@ export const ThreadDetail = () => {
   const repliesRef = useRef<HTMLDivElement>(null);
 
   const fetchThread = async () => {
-    const res = await fetch(`https://nmweb-q9nv.onrender.com/threads/${id}`);
+    const res = await fetch(`https://nmweb-back-end.onrender.com/threads/${id}`);
     const data = await res.json();
     setThread(data);
   };
@@ -22,7 +22,7 @@ export const ThreadDetail = () => {
   const postReply = async () => {
     if (!replyContent || !thread) return;
 
-    const res = await fetch(`https://nmweb-q9nv.onrender.com/threads/${id}/replies`, {
+    const res = await fetch(`https://nmweb-back-end.onrender.com/threads/${id}/replies`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ content: replyContent, author: "Anonymous" }),

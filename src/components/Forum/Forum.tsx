@@ -17,7 +17,7 @@ export const Forum = () => {
   const threadsRef = useRef<HTMLDivElement>(null);
 
   const fetchThreads = async () => {
-    const res = await fetch("https://nmweb-q9nv.onrender.com/threads");
+    const res = await fetch("https://nmweb-back-end.onrender.com/threads");
     const data = await res.json();
     setThreads(data);
   };
@@ -26,7 +26,7 @@ export const Forum = () => {
 
   const postThread = async () => {
     if (!title || !content) return;
-    const res = await fetch("https://nmweb-q9nv.onrender.com/threads", {
+    const res = await fetch("https://nmweb-back-end.onrender.com/threads", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ title, content, author: "Anonymous" }),
