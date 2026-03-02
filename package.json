@@ -11,15 +11,22 @@
     "deploy": "npm run build && npx gh-pages -d dist",
     "typecheck": "tsc --noEmit",
     "check": "npm run typecheck || npm run lint || true",
-    "check:all": "echo \"🔍 Running TypeScript check...\" && (tsc --noEmit || true) && echo \"📝 Running ESLint...\" && (eslint . || true)"
+    "check:all": "echo \"🔍 Running TypeScript check...\" && (tsc --noEmit || true) && echo \"📝 Running ESLint...\" && (eslint . || true)",
+      "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "autoprefixer": "^10.4.21",
+    "bcrypt": "^6.0.0",
     "clsx": "^2.1.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
     "framer-motion": "^12.23.12",
     "gsap": "^3.13.0",
+    "jsonwebtoken": "^9.0.3",
     "lucide-react": "^0.540.0",
+    "mongoose": "^9.2.3",
     "postcss": "^8.5.6",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
@@ -36,9 +43,24 @@
     "eslint": "^9.33.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
+    "gh-pages": "^6.3.0",
     "globals": "^16.3.0",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.39.1",
     "vite": "^7.1.2"
-  }
+  },
+  "description": "<div align=\"center\">   <img src=\"https://img.shields.io/badge/React-19.1-61dafb?style=for-the-badge&logo=react&logoColor=white\" alt=\"React\">   <img src=\"https://img.shields.io/badge/TypeScript-5.8-3178c6?style=for-the-badge&logo=typescript&logoColor=white\" alt=\"TypeScript\">   <img src=\"https://img.shields.io/badge/Vite-7.1-646cff?style=for-the-badge&logo=vite&logoColor=white\" alt=\"Vite\">   <img src=\"https://img.shields.io/badge/TailwindCSS-3.4-06b6d4?style=for-the-badge&logo=tailwindcss&logoColor=white\" alt=\"TailwindCSS\"> </div>",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oldmandan6969/nmweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oldmandan6969/nmweb/issues"
+  },
+  "homepage": "https://github.com/oldmandan6969/nmweb#readme"
+  
 }

@@ -73,7 +73,9 @@
   },
   "images": {
     "hero": {
-      "background": "https://r2.fivemanage.com/jEz23icwKzxF4927IBvLY/nduksi52zrs41.webp"
+      "background": "https://r2.fivemanage.com/jEz23icwKzxF4927IBvLY/nduksi52zrs41.webp",
+      "character": "https://r2.fivemanage.com/jEz23icwKzxF4927IBvLY/test.png"
+      
     },
     "defaults": {
       "teamAvatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&fit=crop",
@@ -208,7 +210,7 @@
     },
     {
       "id": "economy",
-      "title": "Street Economy",
+      "title": "City Economy",
       "description": "Hustle hard with drugs, weapons, and black market trading",
       "icon": "DollarSign",
       "highlight": false
@@ -300,6 +302,14 @@
         "title": "Special Event",
         "category": "events",
         "featured": false
+      },
+      { 
+        "id": 9, 
+        "src": "https://r2.fivemanage.com/jEz23icwKzxF4927IBvLY/image_2026-03-01_165238862.png", 
+        "alt": "GO Postal", 
+        "title": "Vinewoodd Hills",
+        "category": "jobs",
+        "featured": false
       }
     ],
     "categories": [
@@ -308,7 +318,8 @@
       { "id": "action", "name": "Action" },
       { "id": "events", "name": "Events" },
       { "id": "roleplay", "name": "Roleplay" },
-      { "id": "vehicles", "name": "Vehicles" }
+      { "id": "vehicles", "name": "Vehicles" },
+      { "id": "jobs", "name": "Jobs" }
     ]
   },
   "jobs": {

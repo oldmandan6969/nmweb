@@ -206,6 +206,12 @@ export const Hero = () => {
 
             <div ref={characterRef} className="relative hidden lg:block">
               <div className="relative">
+                <img 
+                  src={siteConfig.images?.hero?.character || '/images/character.png'}
+                  alt="Character"
+                  className="w-full h-auto max-w-md mx-auto filter contrast-125 drop-shadow-2xl"
+                  style={{ filter: 'drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.8))' }}
+                />
                 <div className="absolute -top-8 -right-8 font-tag text-spray-blue text-4xl transform rotate-12 opacity-60">
                   {siteConfig.ui?.hero?.graffiti || 'WANTED'}
                 </div>

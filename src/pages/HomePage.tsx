@@ -7,6 +7,7 @@ import { Rules } from '../components/Rules/Rules'
 import { Team } from '../components/Team/Team'
 import { Gallery } from '../components/Gallery/Gallery'
 import { Footer } from '../components/Footer/Footer'
+import { Forum } from '../components/Forum/Forum'
 
 export const HomePage = () => {
   useEffect(() => {
@@ -44,6 +45,9 @@ export const HomePage = () => {
         <section id="gallery">
           <Gallery />
         </section>
+        <section id="forum">
+          <Forum />
+        </section>  
       </main>
       <Footer />
     </>

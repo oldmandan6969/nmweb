@@ -4,6 +4,8 @@ import { HomePage } from './pages/HomePage'
 import { TermsOfService } from './components/Legal/TermsOfService'
 import { PrivacyPolicy } from './components/Legal/PrivacyPolicy'
 import { refreshScrollTriggers } from './lib/gsap-config'
+import { Forum } from "./components/Forum/Forum";
+import { ThreadDetail } from "./components/Forum/ThreadDetail";
 
 // ScrollToTop component to handle route changes
 function ScrollToTop() {
@@ -41,6 +43,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/terms" element={<TermsOfService />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/threads/:id" element={<ThreadDetail />} />
+          <Route path="/forum" element={<Forum />} />
         </Routes>
       </div>
     </Router>

@@ -43,6 +43,12 @@ export const BottomNavigation = () => {
       icon: <Users size={20} />,
       href: '#team'
     },
+        { 
+      id: 'forum', 
+      label: 'Forum', 
+      icon: <Home size={20} />,
+      href: '#forum'
+    },
     { 
       id: 'connect', 
       label: 'Connect', 
@@ -96,7 +102,7 @@ export const BottomNavigation = () => {
 
     const observer = new IntersectionObserver(observerCallback, observerOptions)
     
-    const sections = ['home', 'features', 'jobs', 'rules', 'team', 'gallery']
+    const sections = ['home', 'features', 'jobs', 'rules', 'team', 'gallery', 'forum']
     sections.forEach(sectionId => {
       const element = document.getElementById(sectionId)
       if (element) observer.observe(element)

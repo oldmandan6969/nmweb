@@ -68,7 +68,7 @@ export const Gallery = () => {
 
   const getCurrentDate = () => {
     const date = new Date()
-    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+    return date.toLocaleDateString('en-uk', { month: 'short', day: 'numeric', year: 'numeric' })
   }
 
   const handlePrevious = () => {
@@ -171,7 +171,7 @@ export const Gallery = () => {
                     </p>
                     <div className="flex justify-between items-center">
                       <span className="font-stamp text-xs text-street-black/60">
-                        {siteConfig.ui?.gallery?.evidencePrefix || 'EVIDENCE #'}{String(image.id).padStart(3, '0')}
+                        {siteConfig.ui?.gallery?.evidencePrefix || 'photoS #'}{String(image.id).padStart(3, '0')}
                       </span>
                       <span className="font-stamp text-xs text-street-black/60">
                         {getCurrentDate()}
@@ -187,7 +187,7 @@ export const Gallery = () => {
             <button className="btn-brutal-outline group">
               <span className="flex items-center gap-3">
                 <FolderOpen className="w-5 h-5" />
-                {siteConfig.ui?.gallery?.loadMore || 'LOAD MORE EVIDENCE'}
+                {siteConfig.ui?.gallery?.loadMore || 'LOAD MORE PHOTOS'}
               </span>
             </button>
           </div>
